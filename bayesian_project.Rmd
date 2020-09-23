@@ -1,0 +1,75 @@
+---
+title: "Bayes Modeling and Prediction for Movies"
+output:
+        html_document:
+                toc: TRUE
+editor_options: 
+  chunk_output_type: console
+---
+## Part 0: Setup
+
+### 0.1 Load packages
+
+The libraries used in this study are `ggplot2`, `dplyr`, `statsr`, `BAS` and
+`kableExtra`. Please ensure these libraries are installed to reproduce this paper.
+
+```{r load-packages, message = FALSE, warnings = FALSE, comments = NA}
+library(ggplot2); library(dplyr)
+library(statsr); library(BAS); 
+library(kableExtra)
+```
+
+### 0.2 Load data
+
+```{r load-data}
+load("data/movies.Rdata")
+
+head(movies) %>%
+        kable() %>%
+        kable_styling("striped") %>%
+        scroll_box(width = "100%")
+```
+
+
+
+* * *
+
+## Part 1: Data
+
+
+* * *
+
+## Part 2: Data manipulation
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+* * *
+
+## Part 3: Exploratory data analysis
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+* * *
+
+## Part 4: Modeling
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+* * *
+
+## Part 5: Prediction
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+* * *
+
+## Part 6: Conclusion
+
